@@ -41,6 +41,7 @@ QueryParamTypes = Union[
 ]
 
 HeaderTypes = Union[
+    None,
     "Headers",
     Dict[str, str],
     Dict[bytes, bytes],
